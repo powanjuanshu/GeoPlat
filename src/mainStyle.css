@@ -1,0 +1,28 @@
+.mainView{
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+    background-color: #ffffff !important;
+}
+
+.mainView-header{
+    height: 130px !important;
+    background-color:#ffffff !important;
+    padding-bottom: 14px !important;
+    border-bottom: 4px solid rgb(26,76,135);
+}
+.floatHeader{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10086;
+}
+.mainView-content{
+    margin-top: 130px;
+    background-color: #ffffff !important;
+}
+.mainView-footer{
+    height: 112px !important;
+    padding: 0 !important;
+    background-color: #f1f1f1 !important;
+}
