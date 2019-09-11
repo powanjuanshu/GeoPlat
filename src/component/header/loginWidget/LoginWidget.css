@@ -1,0 +1,12 @@
+/**
+* 系统header面板中，关于登录小组件的样式
+ */
+.loginWeidget_position_style{
+    float: right;
+    margin-top: 15px;
+    color: #1E60B4 !important;
+    font-size: 14px;
+}
+.loginWeidget_loginstate_style{
+    cursor: pointer;
+}

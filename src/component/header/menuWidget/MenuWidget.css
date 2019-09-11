@@ -1,0 +1,17 @@
+/**
+* 系统header面板中，关于菜单的样式
+ */
+.menuwidget_position_style{
+    position: absolute;
+    right: 20%;
+    bottom: 10px;
+}
+.menuwidget_position_style > ul{
+    line-height: 30px !important;
+    border-bottom: 0;
+    font-size: 1.15em !important;
+}
+.menuwidget_position_style > ul > li[class='ant-menu-item-selected']{
+    color: white !important;
+    border-bottom: 0 !important;
+}

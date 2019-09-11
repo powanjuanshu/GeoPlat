@@ -1,0 +1,13 @@
+/**
+* 系统header面板中，关于系统logo和标题的样式
+*/
+.system_logo_style{
+    width: 46px;
+    height: 46px;
+    margin-right: 12px;
+}
+
+.system_title_style{
+    color: #2864B1;
+    font-size: 1.6em;
+}

@@ -8,7 +8,7 @@
 .mainView-header{
     height: 130px !important;
     background-color:#ffffff !important;
-    padding-bottom: 14px !important;
+    padding: 0 20% 14px 20% !important;
     border-bottom: 4px solid rgb(26,76,135);
 }
 .floatHeader{
@@ -20,9 +20,10 @@
 .mainView-content{
     margin-top: 130px;
     background-color: #ffffff !important;
+    /*padding: 0 20% 0 20%;*/
 }
 .mainView-footer{
     height: 112px !important;
-    padding: 0 !important;
+    padding: 0 20% 0 20% !important;
     background-color: #f1f1f1 !important;
 }

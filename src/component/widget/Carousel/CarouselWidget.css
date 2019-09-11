@@ -1,0 +1,37 @@
+/**
+* 跑马灯组件样式
+ */
+.ant-carousel .slick-slide {
+    height: 500px;
+    background: #004d8c ;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h2 {
+    color: #fff;
+}
+.ant-carousel .slick-slide h4 {
+    color: #fff;
+}
+
+.carousel_content_view{
+    padding: 0 20% 0 20%;
+    height: 500px;
+}
+
+.carousel_content_view01{
+    text-align: center;
+}
+.carousel_content_view01 img{
+    width: 198px;
+    height: 198px;
+    margin-left: calc((100% - 198px)/2);
+    margin-top: 100px;
+}
+.carousel_content_view01 h2{
+    font-size: 36px;
+    margin-top: 30px;
+}
+.carousel_content_view01 h4{
+    font-size: 16px;
+}
