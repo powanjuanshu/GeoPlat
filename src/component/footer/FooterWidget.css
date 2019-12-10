@@ -5,3 +5,6 @@
     line-height: 112px;
     text-align: center;
 }
+.footerWeidget_position_style > p{
+    margin-bottom: 0;
+}

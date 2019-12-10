@@ -4,8 +4,8 @@ import './LoginWidget.css';
 
 class LoginWidget extends Component {
     state = {
-        currentUser: '游客',       //当前用户
-        loginState: '登录',        //登录状态  登录/退出
+        currentUser: '游客', // 当前用户
+        loginState: '登录', // 登录状态  登录/退出
     }
     render() {
         return (

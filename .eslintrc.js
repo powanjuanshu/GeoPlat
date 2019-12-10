@@ -38,6 +38,7 @@ module.exports = {
     'no-unused-vars': 0,         //允许出现未使用的变量
     'require-jsdoc': 0,          //不强制使用jsdoc
     'indent': ['error', 4],      //四个空格缩进
+    'linebreak-style': ['error', 'windows'],    //强制使用统一的换行符
 
   },
   'settings': {

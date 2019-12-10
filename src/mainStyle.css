@@ -1,7 +1,6 @@
 .mainView{
     width: 100%;
     position: absolute;
-    overflow: auto;
     background-color: #ffffff !important;
 }
 

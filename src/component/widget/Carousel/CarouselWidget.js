@@ -7,20 +7,26 @@ class CarouselWidget extends Component {
     render() {
         return (
             <div>
-                <Carousel className='carousel_style'>
+                <Carousel autoplay className='carousel_style'>
                     <div className='carousel_content_view carousel_content_view01'>
                         <img src={carouselConfig.carousel_view_one.image} alt='img01' />
                         <h2>{carouselConfig.carousel_view_one.title}</h2>
                         <h4>{carouselConfig.carousel_view_one.desc}</h4>
                     </div>
-                    <div className='carousel_content_view'>
-                        <h3>2</h3>
+                    <div className='carousel_content_view carousel_content_view02'>
+                        <img src={carouselConfig.carousel_view_two.image} alt='img02' />
+                        <h2>{carouselConfig.carousel_view_two.title}</h2>
+                        <h4>{carouselConfig.carousel_view_two.desc}</h4>
                     </div>
-                    <div className='carousel_content_view'>
-                        <h3>3</h3>
+                    <div className='carousel_content_view carousel_content_view03'>
+                        <img src={carouselConfig.carousel_view_three.image} alt='img03' />
+                        <h2>{carouselConfig.carousel_view_three.title}</h2>
+                        <h4>{carouselConfig.carousel_view_three.desc}</h4>
                     </div>
-                    <div className='carousel_content_view'>
-                        <h3>4</h3>
+                    <div className='carousel_content_view carousel_content_view04'>
+                        <img src={carouselConfig.carousel_view_four.image} alt='img04' />
+                        <h2>{carouselConfig.carousel_view_four.title}</h2>
+                        <h4>{carouselConfig.carousel_view_four.desc}</h4>
                     </div>
                 </Carousel>
             </div>

@@ -2,7 +2,7 @@
 * 跑马灯组件样式
  */
 .ant-carousel .slick-slide {
-    height: 500px;
+    height: 500px !important;
     background: #004d8c ;
     overflow: hidden;
 }
@@ -33,5 +33,47 @@
     margin-top: 30px;
 }
 .carousel_content_view01 h4{
+    font-size: 16px;
+}
+
+.carousel_content_view02 img{
+    width: 885px;
+    height: 500px;
+    float: right;
+    margin-right: -20%;
+}
+.carousel_content_view02 h2{
+    font-size: 36px;
+    margin-top: 130px;
+}
+.carousel_content_view02 h4{
+    font-size: 16px;
+}
+
+.carousel_content_view03 img{
+    width: 885px;
+    height: 500px;
+    float: left;
+    margin-left: -20%;
+}
+.carousel_content_view03 h2{
+    font-size: 36px;
+    margin-top: 130px;
+}
+.carousel_content_view03 h4{
+    font-size: 16px;
+}
+
+.carousel_content_view04 img{
+    width: 885px;
+    height: 500px;
+    float: right;
+    margin-right: -20%;
+}
+.carousel_content_view04 h2{
+    font-size: 36px;
+    margin-top: 130px;
+}
+.carousel_content_view04 h4{
     font-size: 16px;
 }

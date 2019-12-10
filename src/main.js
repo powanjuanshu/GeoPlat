@@ -22,9 +22,9 @@ class Main extends Component {
                         {
                             routers.map((value, key) => {
                                 if (value.exact) {
-                                    return <Route exact path={value.path} component={value.component} key={key} />
+                                    return <Route exact path={value.path} component={value.component} key={key} />;
                                 } else {
-                                    return <Route path={value.path} component={value.component} key={key} />
+                                    return <Route path={value.path} component={value.component} key={key} />;
                                 }
                             })
                         }

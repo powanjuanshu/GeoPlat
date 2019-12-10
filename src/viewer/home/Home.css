@@ -5,5 +5,143 @@
 
 }
 .otherWidget_view{
+
+}
+.hoem_index_view{
     padding: 0 20% 0 20%;
+    min-height: 140px;
+}
+.hoem_index_widget{
+    width: 25%;
+    float: left;
+    height: 120px;
+    border-left: 1px solid #d8d8d8;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+.hoem_index_widget img{
+    width: 110px;
+    height: 110px;
+    margin-top: 5px;
+}
+.hoem_index_widget a{
+    text-underline: none;
+}
+.hoem_index_widget span{
+    font-size: 18px;
+    color: black;
+    margin-left: 10px;
+}
+
+.basicDataServerView{
+    padding: 0 20% 0 20%;
+    margin-top: 30px;
+}
+.basicDataServerView_header{
+    min-height: 170px;
+    text-align: center;
+}
+.basicDataServerView_header h2{
+    font-size: 24px;
+    color: #FF5A69;
+    padding-top: 20px;
+}
+.basicDataServerView_header p{
+    font-size: 16px;
+    color: #808080;
+}
+.basicDataServerView_body{
+    min-height: 330px;
+}
+.ant-empty{
+    padding-top: 100px;
+}
+.basicDataServerView_footer{
+    height: 100px;
+    text-align: center;
+}
+.basicDataServerView_footer > button{
+    margin-top: 35px;
+}
+
+.basicFunctionServerView{
+    padding: 0 20% 0 20%;
+    margin-top: 30px;
+    min-height: 430px;
+    background-color: #F1F1F1;
+}
+.basicFunctionServerView_header{
+    min-height: 100px;
+    text-align: center;
+}
+.basicFunctionServerView_header h2{
+    font-size: 24px;
+    color: #FF5A69;
+    padding-top: 20px;
+}
+.basicFunctionServerView_header p{
+    font-size: 16px;
+    color: #808080;
+}
+.basicFunctionServerView_body{
+    min-height: 230px;
+}
+.basicFunctionServerView_footer{
+    height: 100px;
+    text-align: center;
+}
+.basicFunctionServerView_footer > button{
+    margin-top: 35px;
+}
+
+.cloudServerView{
+    padding: 0 20% 0 20%;
+    margin-top: 30px;
+    min-height: 820px;
+}
+.cloudServerView_header{
+    min-height: 125px;
+    text-align: center;
+}
+.cloudServerView_header h2{
+    font-size: 24px;
+    color: #FF5A69;
+    padding-top: 20px;
+}
+.cloudServerView_header p{
+    font-size: 16px;
+    color: #808080;
+}
+.cloudServerView_body{
+    min-height: 595px;
+}
+.cloudServerView_footer{
+    height: 100px;
+    text-align: center;
+}
+.cloudServerView_footer > button{
+    margin-top: 35px;
+}
+
+.platformUse{
+    padding: 0 20% 0 20%;
+    margin-top: 30px;
+    min-height: 660px;
+    background-color: #1F354A;
+}
+.platformUse_header{
+    min-height: 115px;
+    text-align: center;
+}
+.platformUse_header h2{
+    font-size: 24px;
+    color: #FF5A69;
+    padding-top: 20px;
+}
+.platformUse_header p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.platformUse_body{
+    min-height: 545px;
 }

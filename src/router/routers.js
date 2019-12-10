@@ -14,52 +14,52 @@ import MyContent from '../viewer/myContent/MyContent';
 import MyCollection from '../viewer/myCollection/MyCollection';
 import MyPortalSetting from '../viewer/myPortalSetting/MyPortalSetting';
 
-let routers = [{
+const routers = [{
     path: '/',
     component: Home,
-    exact: true
-},{
+    exact: true,
+}, {
     path: '/dataserver',
-    component: DataServer
-},{
+    component: DataServer,
+}, {
     path: '/functionserver',
-    component: FunctionServer
-},{
+    component: FunctionServer,
+}, {
     path: '/mapview',
-    component: MapView
-},{
+    component: MapView,
+}, {
     path: '/sceneview',
-    component: SceneView
-},{
+    component: SceneView,
+}, {
     path: '/newscenter',
-    component: NewsCenter
-},{
+    component: NewsCenter,
+}, {
     path: '/downloadcenter',
-    component: DownloadCenter
-},{
+    component: DownloadCenter,
+}, {
     path: '/cloudserver',
-    component: CloudServer
-},{
+    component: CloudServer,
+}, {
     path: '/chartanalyst',
-    component: ChartAnalyst
-},{
+    component: ChartAnalyst,
+}, {
     path: '/bigdataanalyst',
-    component: BigdataAnalyst
-},{
+    component: BigdataAnalyst,
+}, {
     path: '/realtimegis',
-    component: RealtimeGIS
-},{
+    component: RealtimeGIS,
+}, {
     path: '/platformuse',
-    component: PlatformUse
-},{
+    component: PlatformUse,
+}, {
     path: '/mycontent',
-    component: MyContent
-},{
+    component: MyContent,
+}, {
     path: '/mycollection',
-    component: MyCollection
-},{
+    component: MyCollection,
+}, {
     path: '/myportalsetting',
-    component: MyPortalSetting
+    component: MyPortalSetting,
 }];
 
 export default routers;
